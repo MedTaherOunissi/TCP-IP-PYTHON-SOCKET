@@ -1,0 +1,39 @@
+python network programming 
+ 1-/ tcp/ip socket programming 
+  // socket.socket():to creat a socket
+  //s.bind(host,port):to binding a ip addresse and port to socket.
+  //s.send():send message function 
+  //s.listen():listen the other computer is sending a message a message or not
+  //s.recv(): recv message function
+  //s.close():close the socket function
+2-/problems with direct connection
+  . it difficult to get ip address 
+  . even if we get his ip address the ip address is dynamic ip so its always changing
+  .even we could get regular updates to the dynamic ip address the computer has bunch of firewalls which make it 
+    possible to get  to his computer.
+  . revers connection.
+3-/ server 
+  .remote computer when you can store files or host websites
+  .it has a static ip address 
+  . we need internet to access this remote computer
+
+4-/ reverse shell 
+ . we need connect a cloud server with victim host 
+  2 file we make it 
+   client.py is programme installed on client host 
+   server.py is programme installed on server 
+ ===> to make revers shell 
+5-/ handling connection (soket programming):
+
+
+
+
+
+ 6-/what kind of function used by server ?
+socket(),bind(),listen(),accept(), block while there are connection from client ,read(), process request ,write(),close()
+    what kind of function used by client ?
+socket(),connect(),write(),read(),close()
+
+  
+
+  
